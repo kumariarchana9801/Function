@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //question no 1 (a)
+       //print odd num in an array
+       //IIFE Function
+       (
+        function(arr){
+            for(var i=0;i<arr.length;i++)
+            if(arr[i]% 2! ==0){
+                console.log(arr[i])
+            }
+        }
+       )([3,4,2,5,6])
+       //anonymous function
+       var anonymousOdd=function(arr){
+        for(var i=0;i<arr.length;i++)
+           if(arr[i]% 2! ==0){
+            console,log(arr[i])
+           }
+       }
+       anonymousOdd([3,4,2,5,6])
+       //question no 1 (c)
+       //sum of all num in an array
+       //IIFY Function
+       (
+        function(arr){
+            var total=0;
+            for(var i=0;i<arr.length;i++){
+                total=total+arr[i]
+            }
+            console.log(total)
+        }
+       )([3,4,2,5,6])
+       //Anonymous Function
+       var anonymousSum=function(arr){
+        var total=0;
+        for(var i=0;i<arr.length;i++){
+            total=total+arr[i]
+        }
+        consoel.log(total)
+       }
+       anonymousSum([3,4,2,5,6])
+       //question no 2(a)
+       //odd num of an array
+       //arrow function
+       var arrowOdd=()=>{
+        for(var i=0;i<arr.length;i++){
+            if(arr[i]% 2! ==0){
+            }
+            console.log(arr[i])
+        }
+        arrowOdd([3,4,2,5,6])
+
+       }
+       //question no 2(c)
+       //sum of all num in an array
+       //Arrow Function
+       var arrowSum=(arr)=>{
+        var total=0;
+        for(var i=0;i<arr.length;i++){
+            total=total+arr[i]
+        }
+        consoel.log(total)
+       }
+       arrowSum([3,4,2,5,6])
+    </script>
+</body>
+</html>
